@@ -11,6 +11,7 @@
 		EAFCEC5D2B849B8B00C4CFAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFCEC5C2B849B8B00C4CFAE /* ContentView.swift */; };
 		EAFCEC5F2B849B8C00C4CFAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAFCEC5E2B849B8C00C4CFAE /* Assets.xcassets */; };
 		EAFCEC622B849B8C00C4CFAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAFCEC612B849B8C00C4CFAE /* Preview Assets.xcassets */; };
+		EAFCEC692B849BAD00C4CFAE /* RubberBandStretchModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFCEC682B849BAD00C4CFAE /* RubberBandStretchModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		EAFCEC5C2B849B8B00C4CFAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EAFCEC5E2B849B8C00C4CFAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAFCEC612B849B8C00C4CFAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EAFCEC682B849BAD00C4CFAE /* RubberBandStretchModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubberBandStretchModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				EAFCEC5A2B849B8B00C4CFAE /* SwiftUI_RubberBandStretchModifierApp.swift */,
 				EAFCEC5C2B849B8B00C4CFAE /* ContentView.swift */,
+				EAFCEC6A2B849BB400C4CFAE /* ViewModifiers */,
 				EAFCEC5E2B849B8C00C4CFAE /* Assets.xcassets */,
 				EAFCEC602B849B8C00C4CFAE /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				EAFCEC612B849B8C00C4CFAE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EAFCEC6A2B849BB400C4CFAE /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				EAFCEC682B849BAD00C4CFAE /* RubberBandStretchModifier.swift */,
+			);
+			path = ViewModifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				EAFCEC5D2B849B8B00C4CFAE /* ContentView.swift in Sources */,
 				EAFCEC5B2B849B8B00C4CFAE /* SwiftUI_RubberBandStretchModifierApp.swift in Sources */,
+				EAFCEC692B849BAD00C4CFAE /* RubberBandStretchModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
